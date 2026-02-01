@@ -1,0 +1,7 @@
+# Compiled binaries
+*.o
+*.out
+a.out
+
+# Binary outputs in root
+/challenge_[0-9]*
