@@ -15,12 +15,20 @@
 
 int mod(int a, int n)
 {
-    // Your code here
-    return 0;
+    // Probleme % doesn't handle bite sign
+    // It takes the sign of a
+    int result = a % n;
+    if(result < 0){
+        return result += n;
+    }
+    return result;
 }
 
 int main(void)
 {
+    printf("mod(27, 26) = %d\n", mod(27, 26));
+    printf("mod(-1, 26) = %d\n", mod(-1, 26));
+    printf("mod(-27, 26) = %d\n", mod(-27, 26));
     // Test your function
     return 0;
 }

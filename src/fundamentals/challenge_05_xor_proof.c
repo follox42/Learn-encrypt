@@ -14,6 +14,15 @@
 
 int main(void)
 {
+    int A = 'A';
+    int K = 'B';
+
+    int encrypted = A ^ K;
+
+    int decrypted = encrypted ^ K;
+    if (decrypted == A) {
+        printf("xor proof validated");
+    };
     // Your code here
     return 0;
 }
