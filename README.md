@@ -23,12 +23,19 @@ src/            # C implementations
 
 ## Progress
 
-- [ ] 00-fundamentals
-- [ ] 01-caesar
-- [ ] 02-vigenere
-- [ ] 03-xor
-- [ ] 04-des
-- [ ] 05-aes
-- [ ] 06-rsa
-- [ ] 07-md5
-- [ ] 08-sha256
+- [x] **00-fundamentals** - Binary, hex, XOR, modulo (7/7 challenges ✅)
+- [ ] 01-caesar - Shift cipher
+- [ ] 02-vigenere - Polyalphabetic cipher
+- [ ] 03-xor-advanced - Stream cipher
+- [ ] 04-des - Data Encryption Standard
+- [ ] 05-aes - Advanced Encryption Standard
+- [ ] 06-rsa - Public key cryptography
+- [ ] 07-md5 - Hash function
+- [ ] 08-sha256 - Secure hash
+
+## Current Focus
+
+**Caesar Cipher** - Your first classical cipher!
+- Theory: [docs/01-caesar.md](docs/01-caesar.md)
+- Challenges: [docs/01-caesar-challenges.md](docs/01-caesar-challenges.md)
+- Code: `src/classical/`
