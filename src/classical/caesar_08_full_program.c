@@ -1,17 +1,21 @@
 /*
  * Challenge 8: Full Caesar Cipher Program
  *
- * Complete program with menu:
- * 1. Encrypt
- * 2. Decrypt
- * 3. Brute force
+ * Goal: Complete interactive Caesar cipher tool
+ *
+ * Menu:
+ * 1. Encrypt a message
+ * 2. Decrypt a message
+ * 3. Brute force attack
  * 4. ROT13
  * 5. Exit
+ *
+ * Combine all your previous functions here
  */
 
 #include <stdio.h>
 
-// Your functions here
+// Copy all your functions from previous challenges here
 
 int main(void)
 {

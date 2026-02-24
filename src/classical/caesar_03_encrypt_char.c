@@ -12,14 +12,10 @@
 
 #include <stdio.h>
 
-// Copy your mod() function from challenge 6
 int mod(int a, int n)
 {
-    int result = a % n;
-    if(result < 0){
-        return result + n;
-    }
-    return result;
+    // Copy your mod() function from fundamentals/challenge_06
+    return 0;
 }
 
 char caesar_encrypt_char(char c, int shift)

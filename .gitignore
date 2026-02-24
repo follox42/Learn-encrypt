@@ -3,5 +3,14 @@
 *.out
 a.out
 
-# Binary outputs in root
-/challenge_[0-9]*
+# Build output
+build/
+
+# Editor
+.vscode/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
