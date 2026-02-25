@@ -95,4 +95,4 @@ No practical attack breaks full AES faster than brute force. AES-128 requires 2^
 
 ---
 
-**Previous:** [04-des.md](04-des.md) - Data Encryption Standard
+**Next:** [05-aes-challenges.md](05-aes-challenges.md) - Implement AES

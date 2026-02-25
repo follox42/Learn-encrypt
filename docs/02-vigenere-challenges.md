@@ -162,4 +162,4 @@ When all challenges work:
 - You understand why repeating keys create patterns
 - You are ready for more advanced ciphers
 
-**Next:** Transposition ciphers (coming soon)
+**Next:** [03-xor-advanced.md](03-xor-advanced.md) - XOR Stream Ciphers

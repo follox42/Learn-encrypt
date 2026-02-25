@@ -78,4 +78,4 @@ The lesson: XOR alone is not encryption. XOR combined with a properly generated 
 
 ---
 
-**Next:** [04-des.md](04-des.md) - The Data Encryption Standard
+**Next:** [03-xor-advanced-challenges.md](03-xor-advanced-challenges.md) - Implement XOR ciphers

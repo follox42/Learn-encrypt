@@ -57,9 +57,9 @@ F(0xFF, 0x00, 0xAA) = 0x00
   Explanation: F selects C where B=1, D where B=0
   B=0xFF=11111111, so pick C bits for those positions -> bottom 8 bits = 0x00
 
-G(0xFF00FF00, 0x0F0F0F0F, 0xAAAAAAAA) = expected value
-H(0xFF00FF00, 0x0F0F0F0F, 0xAAAAAAAA) = expected value
-I(0xFF00FF00, 0x0F0F0F0F, 0xAAAAAAAA) = expected value
+G(0xFF00FF00, 0x0F0F0F0F, 0xAAAAAAAA) = 0xFA0AFA0A
+H(0xFF00FF00, 0x0F0F0F0F, 0xAAAAAAAA) = 0x50A550A5
+I(0xFF00FF00, 0x0F0F0F0F, 0xAAAAAAAA) = 0xF05AF05A
 
 left_rotate(0x00000001, 1)  = 0x00000002
 left_rotate(0x80000000, 1)  = 0x00000001
@@ -188,3 +188,11 @@ Example output:
 - For checksum verification, parse lines in the format: hash  filename
 - Compare your output with the system `md5sum` command
 - Handle errors gracefully (file not found, invalid arguments)
+
+---
+
+## Validation
+
+When all challenges work, you understand Merkle-Damgard construction and why MD5 is broken.
+
+**Next:** [08-sha256.md](08-sha256.md) - SHA-256

@@ -60,10 +60,10 @@ Ch(0xFFFFFFFF, 0x12345678, 0xABCDEF01)  = 0x12345678
 Ch(0x00000000, 0x12345678, 0xABCDEF01)  = 0xABCDEF01
 Maj(0xFF00FF00, 0xFF0000FF, 0x00FF00FF) = 0xFF0000FF
 
-Sigma0(0x6a09e667) = verify against known value
-Sigma1(0x510e527f) = verify against known value
-sigma0(0x61626380) = verify against known value
-sigma1(0x00000018) = verify against known value
+Sigma0(0x6a09e667) - implement and verify against the NIST test vector for sha256("abc")
+Sigma1(0x510e527f) - implement and verify against the NIST test vector for sha256("abc")
+sigma0(0x61626380) - implement and verify against the NIST test vector for sha256("abc")
+sigma1(0x00000018) - implement and verify against the NIST test vector for sha256("abc")
 ```
 
 **Hints:**
@@ -206,3 +206,14 @@ Example output:
 - For checksum verification, parse lines in the format: hash  filename
 - Compare your output with the system `sha256sum` command
 - Handle errors gracefully (file not found, invalid arguments)
+
+---
+
+## Validation
+
+When all challenges work:
+- You understand modern hash functions
+- You can implement Merkle-Damgard construction
+- You've completed the entire Learn Encryption course!
+
+Congratulations! You've implemented encryption from Caesar to SHA-256, all from scratch in C.

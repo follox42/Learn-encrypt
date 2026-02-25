@@ -1,4 +1,4 @@
-# RSA (Rivest-Shamir-Adleman)
+# RSA - Rivest-Shamir-Adleman
 
 The most widely used asymmetric encryption algorithm, invented in 1977. Unlike symmetric ciphers (Caesar, AES), RSA uses **two different keys**: one to encrypt, another to decrypt.
 
@@ -362,3 +362,5 @@ Verifying:  hash(M) == S^e mod n
 ## Next Steps
 
 [06-rsa-challenges.md](06-rsa-challenges.md) - Implement RSA step by step
+
+**Next:** [07-md5.md](07-md5.md) - MD5 Hash Function

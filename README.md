@@ -170,11 +170,11 @@ Modern shared-key encryption.
 - **Hex conversion using lookup table** - same approach as the Linux kernel
 - **Euclidean modulo** - correct handling of negative numbers
 - **Bitwise over arithmetic** - `>> 4` instead of `/ 16`, `& 0xF` instead of `% 16`
-- **Zero external dependencies** - everything from scratch using only `<stdio.h>`
+- **Zero external dependencies** - everything from scratch using only C standard library headers
 
 ## Stats
 
-- **58 challenges** across 9 algorithms
+- **59 challenges** across 9 algorithms
 - **18 documentation files** covering theory and challenges
 - **5 phases** from fundamentals to SHA-256
 

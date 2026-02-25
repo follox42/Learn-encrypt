@@ -139,3 +139,5 @@ When all challenges work:
 - You know why each step (SubBytes, ShiftRows, MixColumns, AddRoundKey) is needed
 - You understand the difference between ECB and CBC modes
 - You have built a complete, working AES implementation from scratch
+
+**Next:** [06-rsa.md](06-rsa.md) - RSA Public Key Cryptography

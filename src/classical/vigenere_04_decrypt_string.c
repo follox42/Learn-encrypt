@@ -51,7 +51,6 @@ int main(void)
     printf("Decrypt \"LXFOPVEFRNHR\" + \"LEMON\" → \"%s\"\n", result);
 
     /* Round-trip test: encrypt then decrypt */
-    char encrypted[128];
     /* You can paste your vigenere_encrypt here to test the round trip */
     /* vigenere_encrypt("Hello, World!", "KEY", encrypted); */
     /* vigenere_decrypt(encrypted, "KEY", result); */
