@@ -4,6 +4,8 @@
 
 Hands-on journey through cryptography by implementing every algorithm from scratch in C. No libraries, no shortcuts - pure understanding from bits to RSA.
 
+**Status: complete** - all 59 challenges implemented across the 5 phases below.
+
 ## Why This Project?
 
 - Build **deep understanding** of how encryption works at the byte level
@@ -61,7 +63,7 @@ Core concepts required for any encryption algorithm.
 | 06 | Modular Arithmetic | Euclidean mod for negatives |
 | 07 | String XOR | First encryption program |
 
-### Phase 2: Classical Ciphers
+### Phase 2: Classical Ciphers ✅
 
 Historical ciphers - learn to encrypt AND break them.
 
@@ -89,7 +91,7 @@ Historical ciphers - learn to encrypt AND break them.
 | 05 | Kasiski Exam | Break Vigenère by finding key length |
 | 06 | Full Program | Complete tool |
 
-### Phase 3: Symmetric Encryption
+### Phase 3: Symmetric Encryption ✅
 
 Modern shared-key encryption.
 
@@ -126,7 +128,7 @@ Modern shared-key encryption.
 | 05 | Encrypt Block | Full AES-128 |
 | 06 | Full Program | CBC mode, PKCS#7 padding |
 
-### Phase 4: Asymmetric Encryption
+### Phase 4: Asymmetric Encryption ✅
 
 **RSA** - Public key cryptography
 
@@ -141,7 +143,7 @@ Modern shared-key encryption.
 | 07 | Sign & Verify | Digital signatures |
 | 08 | Full Program | Complete RSA tool |
 
-### Phase 5: Hash Functions
+### Phase 5: Hash Functions ✅
 
 **MD5** - Message Digest (broken but educational)
 
